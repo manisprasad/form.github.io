@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   
+    
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+
+}
+.outer_box{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+.inner_box{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: #030f13;
+    padding:19px 20px;
+    background: linear-gradient(to top left, skyblue, rgba(255, 255, 255, 0.637));
+    width: 300px;
+    /* height: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40%;
+   transform: translateY(-40%);
+}
+main{
+    margin-top: 14px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    color: black;
+    
+}
+input{
+    font-size: large;
+    background-color: rgba(241, 223, 223, 0.801);
+    padding: 8px 9px;
+    border: 1px solid rgb(46, 131, 241);
+    border-radius: 4px;
+    width: 92%;
+    transition-duration: 0.1s;
+    transition-delay: 9ms;
+   
+}
+::placeholder{
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+input:hover{
+    transform: rotate(-1.5deg);
+    color: blueviolet;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1{
+    font-size: 2.5em;
+}
+.signup_footer p{
+    text-align: center;
+}
+button{
+    font-size: large;
+    padding: 10px;
+    color: white;
+    background: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+button:hover{
+    width:100%;
+
+   border: 3px solid rgb(238, 224, 145);
+   border-radius: 10px;
+
+}
+
+.circle{
+    background: linear-gradient(to top right ,#a3656533, #ffffffff);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+#ci1{
+    top:100px;
+    left: 40px;
+}
+#ci2{
+    top: 200px;
+    right: 40px;
+}
+.display_message{
+    
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    color: green;
+   
+}
